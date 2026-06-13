@@ -1,0 +1,20 @@
+.box{
+    border: solid black 3px;
+    margin: 20px;
+    height: 200px;
+    width: 30%;
+}
+.box2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button{
+    background-color: yellow;
+    height: 40px;
+    width: 50px;
+    box-shadow: 3px 3px;
+}
+div p{
+    font-size: 20px;
+}

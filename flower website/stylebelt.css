@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .header,
+  .header-body,
+  .main-body {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header .leaf {
+    color: white;
+    background-color: #00d1b2;
+  }
+  
+  .header .bar {
+    border-radius: 30px;
+    width: 900px;
+    height: 30px;
+    padding: 10px;
+  }
+  
+  .header-body {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .header-body .plants-n {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+  }
+  
+  .header-body a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  hr {
+    border: 2px solid black;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  .header-body {
+    margin-top: 20px;
+  }
+  
+  .main-body {
+    width: 80%;
+  }
+  
+  h2 {
+    width: 100%;
+    font-size: 60px;
+  }
+  
+  .container1 {
+    display: flex;
+  }
+  
+  .shop-cart{
+      cursor: pointer;
+  }
+  
+  .container1 .box {
+    background-color: #00d1b2;
+    height: 400px;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    align-content: center;
+  }
+  .container1 .img-s {
+    width: 400px;
+    height: 400px;
+  }
+  
+  body .Title {
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .main-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right-body,
+  .left-body {
+    margin-bottom: 20px;
+  }
+  
+  .container1,
+  .container2 {
+    width: 80%;
+  }
+  
+  .container2 {
+    width: 600px;
+    margin-left: 15px;
+  }
+  
+  .container2 .img-a {
+    width: 600px;
+    height: 300px;
+  }
+  
+  .c2-content {
+    background-color: #00d1b2;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    height: 85px;
+  }
+  
+  .c2-content p {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    margin-top: 23px;
+  }
+  
+  .footer {
+    background-color: #00d1b2;
+    height: 200px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .Plant .imgp {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+  }
+  
+  .container3 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  
+  .container3 .Plant {
+    height: 100px;
+    margin-top: 50px;
+  }
+  
+  .alert {
+    width: 80%;
+    margin: 0 auto;
+    border: 3px solid black;
+    display: flex;
+    font-size: 1.7rem;
+    gap: 20px;
+  }
+  
+  .alert .btn {
+    width: 130px;
+    height: 40px;
+    background-color: #00d1b2;
+    color: white;
+    box-shadow: 3px 3px black;
+    padding: 3px 3px;
+    margin-left: 50px;
+    font-size: 1.7rem;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylebelt.css">
+    <title>Succulent shop</title>
+</head>
+<body>
+    <!-- Header section -->
+    <div class="header">
+        <img class="leaf" src="images/assets/leaf.png" alt="">
+        <h1><span>EasyBay</span></h1>
+        <form>
+            <input class="bar" type="text" placeholder="Search for anything">
+        </form>
+        <button onclick="cart()"><img class="shop-cart" src="images/assets/cart-dark.png" alt=""></button>
+        <div class="sign-in">
+            <a href="#">Sign In</a>
+        </div>
+    </div>
+    <!-- Header body section -->
+    <div class="header-body">
+        <ul class="plants-n">
+            <li><a href="#">Aeonium</a></li>
+            <li><a href="#">Andormischus</a></li>
+            <li><a href="#">Agave</a></li>
+            <li><a href="#">Aloe</a></li>
+            <li><a href="#">Anacampseros</a></li>
+            <li><a href="#">Aristaloe</a></li>
+            <li><a href="#">More...</a></li>
+        </ul>
+        <hr>
+    </div>
+    <!-- Main body section -->
+    <div class="main-body">
+        <div class="left-body">
+            <!-- Left body section -->
+            <div class="container1">
+                <div class="box">
+                    <p>Discover succulent varieties one pot or rack at a time!</p>
+                    <br>
+                    <p>Discover</p>
+                    <img class="arrow" src="images/assets/arrow-light.png" alt="">
+                </div>
+                <!-- Image 1 section -->
+                <div class="img1">
+                    <img onmouseover="changeover(event)" onmouseout="change_out(event)" class="img-s" src="images/assets/succulents-1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="right-body">
+            <!-- Right body section -->
+            <div class="container2">
+                <img class="img-a" src="images/assets/aloe-m.jpg" alt="">
+                <div class="c2-content">
+                    <p>Soothing aloe</p>
+                    <img class="arrow" src="images/assets/arrow-light.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer section -->
+    <div class="footer">
+        <div class="container3">
+            <div class="Plant">
+                <img class="imgp" src="images/assets/aeonium-s.jpg" alt="">
+            </div>
+            <div class="Plant">
+                <img class="imgp" src="images/assets/aloe-s.jpg" alt="">
+            </div>
+            <div class="Plant">
+                <img class="imgp" src="images/assets/cactus-s.jpg" alt="">
+            </div>
+            <div class="Plant">
+                <img class="imgp" src="images/assets/echeveria-s.jpg" alt="">
+            </div>
+            <div class="Plant">
+                <img class="imgp" src="images/assets/sedum-s.jpg" alt="">
+            </div>
+            <div class="Plant">
+                <img class="imgp" src="images/assets/sempervivum-s.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Alert section -->
+    <div class="alert">
+        <img class="alert-dark" src="images/assets/alert-dark.png" alt="">
+        <p>This site makes use of third-party cookies, by clicking"I accept"<br>
+            you agree to the terms outlined in our<a href="#"> cookie policy</a></p>
+        <button onclick="accept()" class="btn">I Accept</button>
+    </div>
+    <script src="scriptbelt.js"></script>
+</body>
+</html>
